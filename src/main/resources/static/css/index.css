@@ -1,0 +1,150 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 26, 2023, 10:18:05 PM
+    Author     : Jeffrey Mojica S
+*/
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(../images/concierto.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+header{
+    display: flex; /*Para ponerlos horizontal*/
+    min-height: 70px;
+    background-color: #3E636C ;
+    justify-content: space-between; /*Ubicarlos en el eje principal, para que cada uno este en una esquina */
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 10px; /*Separar el logo del nombre*/
+}
+
+
+nav a{
+    font-weight: 600; /*Para ponerlo en negrita*/
+    padding-right: 10px;
+
+}
+
+nav a:hover{ /*Para que cambie de color cuando le pasa el mouse*/
+
+    color: white;
+}
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+
+.buscar{
+    position:absolute;
+    padding: 10px;
+    margin-top: -73px;
+    margin-left: 300px;
+    
+    
+
+}
+
+.buscar input{
+    widht: 600px;
+    height: 40px;
+    padding-right: 200px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    padding-left: 20px;
+      
+}
+
+.imagen h1{
+    padding-left: 105px;
+}
+
+.imagen p{
+    padding-left: 80px;
+ 
+}
+
+.imagen2 {
+    padding-right: 200px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: -590px; /*subir una imagen*/
+
+
+}
+.imagen2 h1{
+    padding-left: 100px;
+    text-align: center;
+}
+
+.imagen2 p{
+    
+    padding-left: 120px;
+    text-align: justify;
+     
+}
+
+
+.imagen3 {
+    padding-right: 200px;
+    width: 430px;
+    margin: 0 auto;
+    margin-top: -911px; /*subir una imagen*/
+    padding-left: 900px;
+    
+}
+
+.imagen3 h1{
+    padding-right: 80px;
+    text-align: right;
+    top: -100px;
+}
+
+.imagen3 p{
+  
+padding-left: 170px; 
+weidth:100px;
+
+text-align: justify;
+
+
+}
+
+
+
